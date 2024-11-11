@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      container : {
+        center: true,
+        padding: "15px"
+      },
+      spacing : {
+        '10': '8.5rem',
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        accent: "#0099ff"
       },
     },
   },
