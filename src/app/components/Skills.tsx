@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Skills = () => {
   return (
@@ -6,10 +6,10 @@ const Skills = () => {
       <div className='grid md:grid-cols-2 gap-20 items-center'>
         <div data-aos="zoom-in-up">
           <h2 className='text-4xl md:text-5xl'>Technologies I work with:</h2>
-          <p className='pt-2'>I am a web developer skilled with HTML, Tailwind CSS, Typescript and 
-            Next Js. I enjoy creating responsive and user friendly websites. With 
-            a focus on clean code and design, I aim to build high quality web applications
-            that meet client's needs.
+          <p className='pt-2'>
+            I am a web developer skilled with HTML, Tailwind CSS, Typescript, and Next Js. 
+            I enjoy creating responsive and user-friendly websites. With a focus on clean code 
+            and design, I aim to build high-quality web applications that meet client&apos;s needs.
           </p>
         </div>
         <div>
@@ -28,7 +28,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

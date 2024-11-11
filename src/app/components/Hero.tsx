@@ -12,7 +12,6 @@ const Hero = () => {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed',
-          // opacity: 0.7, // Adjust the opacity of bg.jpg only
           zIndex: -1, // Ensure this background layer is behind all other content
         }}
       />
@@ -31,7 +30,7 @@ const Hero = () => {
           <div className="hidden lg:block"></div>
           <div className="text-[70px] sm:text-[90px] font-bold leading-tight flex justify-center items-center">
             <div>
-              <p data-aos="zoom-in-up">I'm</p>
+              <p data-aos="zoom-in-up">I&apos;m</p> {/* Escaped the single quote */}
               <p data-aos="zoom-in-up">Maimoona</p>
               <p data-aos="zoom-in-up">Munir.</p>
             </div>
